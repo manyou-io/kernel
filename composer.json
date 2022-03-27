@@ -1,4 +1,16 @@
 {
+    "name": "alpinegreen/kernel",
+    "type": "library",
+    "description": "A lightweight PHP application kernel based on Symfony dependency injection container",
+    "keywords": [],
+    "homepage": "https://alpinegreen.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bohan Yang",
+            "email": "youthdna@live.com"
+        }
+    ],
     "require": {
         "php": ">=8.0",
         "ext-ctype": "*",
