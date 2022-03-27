@@ -1,0 +1,28 @@
+{
+    "require": {
+        "php": ">=8.0",
+        "ext-ctype": "*",
+        "ext-mbstring": "*",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/config": "^6.0",
+        "symfony/filesystem": "^6.0",
+        "psr/container": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlpineGreen\\Kernel\\": "src/"
+        }
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-mbstring": "*"
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
